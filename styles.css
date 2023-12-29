@@ -1,8 +1,22 @@
-/*
+.notescape-view-content {
+    padding: 0 !important;
+    display: flex;
+    flex-flow: column;
+}
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
+.notescape-webview {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border: none;
+    background-color: white;
+    background-clip: content-box;
+}
 
-If your plugin does not need CSS, delete this file.
+.notescape-web-view-header .notescape-center-widget-container::after {
+    display: none;
+}
 
-*/
+.netscape-view-header-search-widget {
+    width: 100%;
+}
